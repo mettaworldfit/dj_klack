@@ -804,6 +804,7 @@ textarea#comment {
 }
 
 ul.lista-comentarios {
+    margin-top: 20px;
     display: flex;
     justify-content: flex-start;
     margin-left: 10px;
