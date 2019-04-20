@@ -803,11 +803,12 @@ textarea#comment {
     margin-bottom: 20px;
 }
 
-@media only screen and (max-width:480px){
-    ul.lista-comentarios {
-        margin-left: 10px;
-    }
+ul.lista-comentarios {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
 }
+
 
 input#submit {
     font-size: 14px;
