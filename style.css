@@ -752,6 +752,7 @@ h3#reply-title{
 
 h3#reply-title >a{
     color: purple;
+    margin: 0 5px;
 }
 
 p.logged-in-as a {
@@ -850,14 +851,20 @@ p.comment-notes {
 }
 p.comment-form-author {
     margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 p.comment-form-email {
     margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 p.comment-form-url {
     margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 
